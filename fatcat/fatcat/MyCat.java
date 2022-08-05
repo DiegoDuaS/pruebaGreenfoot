@@ -13,6 +13,8 @@ public class MyCat extends Cat
      */
     public void act()
     {
+        dance();
+        shoutHooray();
         if(isHungry()){
             eat();
         }
